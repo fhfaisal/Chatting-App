@@ -1,3 +1,4 @@
+
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 myFontStyle(double Fs,[FontWeight? Fw, Color? clr]){
@@ -7,3 +8,4 @@ myFontStyle(double Fs,[FontWeight? Fw, Color? clr]){
     color:clr ,
   );
 }
+late Size mq;

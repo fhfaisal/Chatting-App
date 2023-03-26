@@ -1,6 +1,8 @@
-import 'package:chatting_app/screens/home_page.dart';
+import 'package:chatting_app/screens/auth/login_page.dart';
 import 'package:chatting_app/screens/widget_settings/widget_settings.dart';
 import 'package:flutter/material.dart';
+
+
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
             centerTitle: true,
             titleTextStyle: myFontStyle(20, FontWeight.bold, Colors.white),
           )),
-      home: HomePage(),
+      home: LoginPage(),
     );
   }
 }
